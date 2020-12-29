@@ -1,0 +1,28 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <hi><b>Score Board</b></hi>
+        <br><br>
+        <table> 
+            <thead> 
+            <tr> 
+                <th>User_Name</th> 
+                <th>Score</th> 
+            </tr> 
+            </thead> 
+            <tbody> 
+                {% for user in user_score %}
+                    <tr>    
+                        <td>{{ user['player_name'] }}</td>
+                        <td>{{ user['score'] }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody> 
+        </table>
+    
+    </body>
+    
+</html>
