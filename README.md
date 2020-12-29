@@ -1,5 +1,5 @@
 # snake-game-goldcast
-Prepared as an internship assignment for goldcast 
+Prepared as an pre-internship assignment for goldcast 
 
 Steps to execute:
 Clone this repo in your local.
